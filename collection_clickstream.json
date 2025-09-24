@@ -1,0 +1,26 @@
+[
+  {
+    "event_id": "EVT-0001",
+    "customer_id": "CUST-0001",
+    "type": "product_view",
+    "timestamp": { "$date": "2025-09-10T12:30:00Z" },
+    "context": { "session_id": "SESS-001", "device": "desktop" },
+    "product": { "product_id": "PROD-BOOK-001", "category": "book" }
+  },
+  {
+    "event_id": "EVT-0002",
+    "customer_id": "CUST-0002",
+    "type": "add_to_cart",
+    "timestamp": { "$date": "2025-09-15T18:00:00Z" },
+    "context": { "session_id": "SESS-002", "device": "mobile" },
+    "product": { "product_id": "PROD-KITCH-310", "category": "kitchen_appliance" }
+  },
+  {
+    "event_id": "EVT-0003",
+    "customer_id": "CUST-0003",
+    "type": "purchase",
+    "timestamp": { "$date": "2025-09-17T09:15:10Z" },
+    "context": { "session_id": "SESS-003", "device": "desktop" },
+    "product": { "product_id": "PROD-CD-101", "category": "cd" }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "customer": "CUST-0001",
+    "name": "Maria Souza",
+    "email": "maria.souza@example.com",
+    "state": "SP",
+    "created": { "$date": "2024-11-10T15:22:03Z" }
+  },
+  {
+    "customer": "CUST-0002",
+    "name": "João Pereira",
+    "email": "joao.pereira@example.com",
+    "state": "RJ",
+    "created": { "$date": "2024-12-01T10:15:00Z" }
+  },
+  {
+    "customer": "CUST-0003",
+    "name": "Ana Lima",
+    "email": "ana.lima@example.com",
+    "state": "MG",
+    "created": { "$date": "2025-01-20T09:00:00Z" }
+  }
+]

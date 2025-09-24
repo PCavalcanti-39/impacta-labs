@@ -1,0 +1,63 @@
+[
+  {
+    "order_id": "ORD-2025-0001",
+    "customer_id": "CUST-0001",
+    "customer_state": "SP",
+    "order_date": { "$date": "2025-09-10T13:05:45Z" },
+    "items": [
+      {
+        "product_id": "PROD-BOOK-001",
+        "category": "book",
+        "unit_price": 129.90,
+        "quantity": 1,
+        "line_total": 129.90
+      },
+      {
+        "product_id": "PROD-CD-101",
+        "category": "cd",
+        "unit_price": 49.90,
+        "quantity": 2,
+        "line_total": 99.80
+      }
+    ],
+    "order_total": 229.70,
+    "payment_method": "credit_card",
+    "status": "paid"
+  },
+  {
+    "order_id": "ORD-2025-0002",
+    "customer_id": "CUST-0002",
+    "customer_state": "RJ",
+    "order_date": { "$date": "2025-09-15T18:20:00Z" },
+    "items": [
+      {
+        "product_id": "PROD-KITCH-310",
+        "category": "kitchen_appliance",
+        "unit_price": 219.00,
+        "quantity": 1,
+        "line_total": 219.00
+      }
+    ],
+    "order_total": 219.00,
+    "payment_method": "pix",
+    "status": "paid"
+  },
+  {
+    "order_id": "ORD-2025-0003",
+    "customer_id": "CUST-0003",
+    "customer_state": "MG",
+    "order_date": { "$date": "2025-09-17T09:15:10Z" },
+    "items": [
+      {
+        "product_id": "PROD-CD-101",
+        "category": "cd",
+        "unit_price": 49.90,
+        "quantity": 3,
+        "line_total": 149.70
+      }
+    ],
+    "order_total": 149.70,
+    "payment_method": "boleto",
+    "status": "paid"
+  }
+]

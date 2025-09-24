@@ -1,0 +1,41 @@
+[
+  {
+    "product_id": "PROD-BOOK-001",
+    "name": "Clean Architecture",
+    "category": "book",
+    "price": 129.90,
+    "brand": "Prentice Hall",
+    "active": true,
+    "category_details": {
+      "isbn": "9780134494166",
+      "author": "Robert C. Martin",
+      "pages": 432,
+      "language": "pt-BR"
+    }
+  },
+  {
+    "product_id": "PROD-CD-101",
+    "name": "Kind of Blue",
+    "category": "cd",
+    "price": 49.90,
+    "brand": "Columbia",
+    "active": true,
+    "category_details": {
+      "artist": "Miles Davis",
+      "tracks": 5
+    }
+  },
+  {
+    "product_id": "PROD-KITCH-310",
+    "name": "Mixer 500W",
+    "category": "kitchen_appliance",
+    "price": 219.00,
+    "brand": "KitchenPlus",
+    "active": true,
+    "category_details": {
+      "wattage": 500,
+      "voltage": "110/220",
+      "warranty_months": 12
+    }
+  }
+]
